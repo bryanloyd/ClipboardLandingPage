@@ -1,10 +1,13 @@
-function App() {
+import React from "react";
+import Header from "./Components/Header";
+import "./App.css";
+
+const App = () => {
   return (
-    <div className="App">
-      <h1>Clipboard Landing Page</h1>
-      <p>Clipboard Landing Page</p>
+    <div className="app">
+      <Header />
     </div>
   );
-}
+};
 
 export default App;
