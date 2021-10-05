@@ -117,6 +117,11 @@ ul {
   font-weight: 400;
   line-height: 3rem;
   box-shadow: 1px 1px 5px 1px hsl(171, 66%, 10%);
+  cursor: pointer;
+}
+
+.header-button-ios:hover {
+  background-color: hsl(171, 66%, 65%);
 }
 
 .header-button-mac {
@@ -131,6 +136,11 @@ ul {
   font-weight: 400;
   line-height: 3rem;
   box-shadow: 1px 1px 5px 1px hsl(171, 66%, 10%);
+  cursor: pointer;
+}
+
+.header-button-mac:hover {
+  background-color: hsl(233, 100%, 80%);
 }
 
 /* Snippets Component */
@@ -207,7 +217,7 @@ img {
 
 /* Footer Component */
 .footer {
-  background-color: hsl(201, 11%, 66%);
+  background-color: hsl(201, 11%, 90%);
   text-align: center;
   padding: 50px 0;
 }
@@ -220,6 +230,11 @@ img {
 .footer p {
   color: hsl(210, 10%, 33%);
   margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.footer p:hover {
+  color: hsl(171, 66%, 44%);
 }
 
 .footer-social {
@@ -227,4 +242,10 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  cursor: pointer;
+}
+
+.footer-social img:hover {
+  filter: invert(61%) sepia(44%) saturate(654%) hue-rotate(121deg)
+    brightness(91%) contrast(90%);
 }
