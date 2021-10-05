@@ -5,6 +5,7 @@ import Snippets from "./Components/Snippets";
 import Access from "./Components/Access";
 import Supercharge from "./Components/Supercharge";
 import Companies from "./Components/Companies";
+import Clipboard from "./Components/Clipboard";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Access />
       <Supercharge />
       <Companies />
+      <Clipboard />
     </div>
   );
 };
