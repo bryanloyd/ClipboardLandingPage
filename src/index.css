@@ -166,3 +166,20 @@ h5 {
 .access img {
   margin: 50px 0;
 }
+
+/* Supercharge Component */
+
+.supercharge {
+  text-align: center;
+  padding: 25px;
+}
+
+.supercharge h4,
+h5 {
+  margin-bottom: 25px;
+}
+
+.supercharge p,
+img {
+  margin-bottom: 50px;
+}
