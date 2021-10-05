@@ -63,7 +63,7 @@ h6 {
 
 p {
   font-size: 1.8rem;
-  line-height: auto;
+  line-height: 2.6rem;
   color: hsl(201, 11%, 66%);
 }
 
@@ -131,4 +131,24 @@ ul {
   font-weight: 400;
   line-height: 3rem;
   box-shadow: 1px 1px 5px 1px hsl(171, 66%, 10%);
+}
+
+/* Snippets Component */
+.snippets {
+  text-align: center;
+  padding: 0 25px;
+  margin: 25px 0 200px 0;
+}
+
+.snippets h4,
+h5 {
+  margin-bottom: 10px;
+}
+
+.snippets p {
+  margin-bottom: 50px;
+}
+
+.snippets img {
+  margin: 50px 0;
 }
