@@ -204,3 +204,27 @@ img {
 .clipboard p {
   margin-bottom: 50px;
 }
+
+/* Footer Component */
+.footer {
+  background-color: hsl(201, 11%, 66%);
+  text-align: center;
+  padding: 50px 0;
+}
+
+.footer-logo {
+  width: 55px;
+  height: 55px;
+}
+
+.footer p {
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 15px;
+}
+
+.footer-social {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
