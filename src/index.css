@@ -152,3 +152,17 @@ h5 {
 .snippets img {
   margin: 50px 0;
 }
+
+/* Access Component */
+.access {
+  text-align: center;
+  padding: 0 15px;
+}
+
+.access h4 {
+  margin-bottom: 25px;
+}
+
+.access img {
+  margin: 50px 0;
+}
