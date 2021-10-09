@@ -62,7 +62,7 @@ h6 {
 }
 
 p {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 2.6rem;
   color: hsl(201, 11%, 66%);
 }
@@ -248,4 +248,70 @@ img {
 .footer-social img:hover {
   filter: invert(61%) sepia(44%) saturate(654%) hue-rotate(121deg)
     brightness(91%) contrast(90%);
+}
+
+/* Tablet View */
+@media (min-width: 768px) {
+  .header {
+    background-image: url(./images/bg-header-desktop.png);
+    background-size: cover;
+  }
+
+  .header-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+
+/* Large Tablet - Laptop View */
+@media (min-width: 1024px) {
+  .header p,
+  .snippets p,
+  .access p,
+  .supercharge p,
+  .clipboard p {
+    max-width: 730px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Desktop View */
+@media (min-width: 1440px) {
+  .snippets-features {
+    display: flex;
+    margin: auto;
+  }
+
+  .snippets-features_list {
+    max-width: 350px;
+    text-align: left;
+    margin: auto;
+  }
+
+  .supercharge-features {
+    display: flex;
+  }
+  .supercharge-features div {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .companies {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .footer-social img {
+    padding: 15px;
+  }
 }

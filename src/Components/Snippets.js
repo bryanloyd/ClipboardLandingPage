@@ -12,11 +12,11 @@ const Snippets = () => {
           iOS apps will help you organize everything.
         </p>
       </div>
-      <section>
+      <section className="snippets-features">
         <div>
           <img src={imac} alt="" />
         </div>
-        <div>
+        <div className="snippets-features_list">
           <h5>Quick Search</h5>
           <p>
             Easily search your snippets by content, category, web address,
